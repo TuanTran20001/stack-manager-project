@@ -1,0 +1,108 @@
+.BoxReset {
+    position: relative;
+    width: 1400px;
+    height: 820px;
+    background: #F7F7F7;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+/*Left Handle*/
+.Logoleft img {
+    position: absolute;
+    width: 170px;
+    height: 136px;
+    left: 213px;
+    top: 60px;
+}
+.InputRs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 100px;
+    top: 320px;
+}
+.InputRs input{
+    height: 25px;
+    width: 400px;
+    border-radius: 7px;
+}
+.InputRs label
+{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.PassRs label{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.PassRs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 100px;
+    top: 410px;
+}
+.PasRs input{
+    height: 44px;
+    width: 400px;
+    border-radius: 8px;
+}
+.BtnLogin button{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    width: 162px;
+    height: 40px;
+    left: 215px;
+    top: 530px;
+    color: white;
+    background: #FF9138;
+    border-color: #FF9138;
+    border-radius: 8px;
+}
+.TitleRs {
+    position: absolute;
+    left: 13.75%;
+    right: 71.6%;
+    top: 30%;
+    bottom: 56.42%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #282739;
+}
+.LoginRight{
+    position: absolute;
+    width: 848px;
+    height: 810px;
+    left: 592px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.InputRs  Input{
+    height: 25px;
+}
+.PassRs Input{
+    height: 25px;
+}
+/*Right Handle*/
+.LogoRight img {
+    position: absolute;
+    width: 100%;
+    height: 610px;
+    left: 50px;
+    top: 80px;
+}
