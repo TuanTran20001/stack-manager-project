@@ -12,8 +12,8 @@
   }
 .Logo img{
     position: absolute;
-    width: 80px;
-    height: 64px;
+    width: 45%;
+    height: 9%;
     left: 60px;
     top: 32px;
 }
@@ -25,59 +25,60 @@
     margin-top: 4px;
 }
 .MenuBar a {
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 27px;
     color: #7E7D88;
-    margin-left: 42px;  
+    margin-left: 49px; 
+    text-decoration: none;
 }
-  
+.MenuBar .Dash {
+    margin-left: 1px;
+}
 .ItemDashBoard {
-  
     position: absolute;
-    width: 200px;
-    height: 48px;
+    width: 70%;
     left: 0px;
     top: 150px;
     background: #FFFFFF;
 }
+.ItemDashBoard Link{
+    margin-left: 1px;
+}
 .ItemThiebi {
   
     position: absolute;
-    width: 200px;
+    width: 58%;
     height: 48px;
     left: 0px;
     top: 204px;
-  
 }
 .ItemDichvu {
     position: absolute;
-    width: 200px;
+    width: 58%;
     height: 48px;
     left: 0px;
     top: 258px;
 }
 .ItemCapso {
     position: absolute;
-    width: 200px;
+    width: 55%;
     height: 48px;
     left: 0px;
     top: 312px;
 }
 .ItemBaocao {
     position: absolute;
-    width: 200px;
+    width: 58%;
     height: 48px;
     left: 0px;
     top: 366px;
 }
 .ItemCaidat {
     position: absolute;
-    width: 200px;
+    width: 100%;
     height: 48px;
-    left: 0px;
+    right: 5%;
     top: 420px;
 }
 .ButtonLogout button {

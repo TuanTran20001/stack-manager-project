@@ -4,21 +4,20 @@ import LoginUser from './components/LoginUser/LoginU';
 import ForgotPass from './components/ForgotPass/Forgotpss';
 import ResetPass from './components/ResetPass/Reset';
 import Infomation from './components/Information/Information';
+// import Dashboard from './components/Dashboard/Dashboard'
 import './App.css';
-import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
+import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-    <Router>
       <Routes>
-        <Route path="/Login" element={<LoginUser></LoginUser>}></Route>
+        <Route path="*" element={<LoginUser></LoginUser>}></Route>
         <Route path="/Forgot" element={<ForgotPass></ForgotPass>}></Route>
         <Route path="/Reset" element={<ResetPass></ResetPass>}></Route>
         <Route path="/Infomation" element={<Infomation></Infomation>}></Route>
+        {/* <Route path="/Dashboard" element={<Dashboard></Dashboard>}></Route> */}
       </Routes>
-    </Router>
-    
     </div>
   );
 }

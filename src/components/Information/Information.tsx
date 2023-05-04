@@ -35,7 +35,7 @@ const Information = () => {
             <Input placeholder='0344334984'/>
           </div>
           <div className={Styless.Email}>
-            <p>Email</p>
+            <p>Email :</p>
             <Input placeholder='anhtuancntt2001@gmail.com'/>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Information = () => {
             <Input placeholder='123456'/>
           </div>
           <div className={Styless.Vaitro}>
-            <p>Vai Trò</p>
+            <p>Vai Trò :</p>
             <Input placeholder='Intership Frontend'/>
           </div>
         </div>

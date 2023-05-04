@@ -17,22 +17,22 @@ const MenuBar = () => {
       </div>
       <div className={Styless.MenuBar}>
         <div className={Styless.ItemDashBoard}><img src={DashBoard}></img>
-            <a>DashBoard</a>
+            <Link to="/Login">Dashboard</Link>
         </div>
         <div className={Styless.ItemThiebi} ><img src={ThietBi}></img>
-            <a>Thiết bị</a>
+            <Link to="">Thiết bị</Link>
         </div>
         <div className={Styless.ItemDichvu} ><img src={DichVu}></img>
-            <a>Dịch vụ</a>
+            <Link to="">Dịch vụ</Link>
         </div>
         <div className={Styless.ItemCapso} ><img src={CapSo}></img>
-            <a>Cấp số</a>
+            <Link to="">Cấp số</Link>
         </div>
         <div className={Styless.ItemBaocao} ><img src={BaoCao}></img>
-            <a>Báo cáo</a>
+            <Link to="">Báo cáo</Link>
         </div>
         <div className={Styless.ItemCaidat} ><img src={CaiDat}></img>
-            <a >Cài đặt thiết bị <MoreOutlined /></a>
+            <Link to="">Cài đặt thiết bị<MoreOutlined/></Link>
         </div>
         <div className={Styless.ButtonLogout} >
           <Link to="/login"><button> <LoginOutlined />Đăng Xuất</button></Link>

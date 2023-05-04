@@ -2,7 +2,8 @@ import React from 'react'
 import Styless from '../TopBar/Top.module.css'
 import Ring from '../../assets/image/Frame271.png'
 import Ava from '../../assets/image/avatar1.webp'
-
+import { Link } from 'react-router-dom'
+  
 const TopBar = () => {
   return (
     <div className={Styless.TopBar}>
@@ -13,7 +14,7 @@ const TopBar = () => {
           <img src={Ring} ></img>
       </div>
       <div className={Styless.ImgAvt}>
-          <img src={Ava}></img>
+          <Link to="" ><img src={Ava}></img></Link>
       </div>
       <div className={Styless.ContentRight}>
         <p className={Styless.Name}>Xin Chào</p>
