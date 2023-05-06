@@ -20,7 +20,7 @@ const MenuBar = () => {
             <Link to="/Login">Dashboard</Link>
         </div>
         <div className={Styless.ItemThiebi} ><img src={ThietBi}></img>
-            <Link to="">Thiết bị</Link>
+            <Link to="/Equipment">Thiết bị</Link>
         </div>
         <div className={Styless.ItemDichvu} ><img src={DichVu}></img>
             <Link to="">Dịch vụ</Link>

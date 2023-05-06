@@ -1,20 +1,20 @@
 // import React from 'react'
 import MenuBar from '../../pages/MenuBar/Menu'
 import TopBar from '../../pages/TopBar/Top'
-// import Styless from '../Information/Information.module.css'
+import Styless from '../Dashboard/Dashboard.module.css'
 // import Avatar from '../../assets/image/avatar1.webp'
 // import Cam from '../../assets/image/Camera.png'
 // import Input from 'antd/es/input/Input' 
-// const Dashboard = () => {
+const Dashboard = () => {
 //   return (
-// //     <div className={Styless.Infomation}>
-// //       <div className={Styless.MenuBar}>
-// //         <MenuBar></MenuBar>
-// //       </div>
-// //       <div className={Styless.TopBar}>
-// //         <TopBar></TopBar>
-// //       </div>
-// //       <div className={Styless.TableInfo}>
+//     // <div className={Styless.Infomation}>
+//       <div className={Styless.MenuBar}>
+//         <MenuBar></MenuBar>
+//       </div>
+//       <div className={Styless.TopBar}>
+//         <TopBar></TopBar>
+//       </div>
+// {/* // //       <div className={Styless.TableInfo}>
 // //         <div className={Styless.Avatar}>
 // //           <img src={Avatar}></img>
 // //         </div>
@@ -53,8 +53,7 @@ import TopBar from '../../pages/TopBar/Top'
 // //           </div>
 // //         </div>
 // //       </div>
-
-// //     </div>
-// //   )
-// }
-// export default Dashboard;
+// //     </div> */}
+//   )
+}
+export default Dashboard;

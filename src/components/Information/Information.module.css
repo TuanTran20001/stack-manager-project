@@ -1,14 +1,24 @@
+.Infomation{
+    font-family: 'Nunito';
+    font-style: normal;
+}
 .TableInfo {
     position: absolute;
-    width: 1112px;
+    width: 75%;
     height: 397px;
-    left: 224px;
+    left: 14%;
     top: 168px;
     background: #FFFFFF;
     box-shadow: 0px 2px 6px rgba(219, 219, 219, 0.5);
     border-radius: 12px;
-    font-family: 'Nunito';
-    font-style: normal;
+}
+.ContentInfor {
+    width: 37%;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF9138;
 }
 .Avatar img {
     position: absolute;

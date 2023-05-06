@@ -27,7 +27,7 @@ return (
                     <Link to="/Forgot">Quên mật khẩu ?</Link>
                 </div>
                 <div className={Styless.ButtonLg}>
-                    <Link to="/Infomation"><button>Đăng nhập</button></Link>
+                    <Link to="/Information"><button>Đăng nhập</button></Link>
                 </div>
             </div>
 

@@ -3,7 +3,7 @@
     font-style: normal;
     position: absolute;
     width: 200px;
-    height: 810px;
+    height: 950px;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
@@ -12,10 +12,10 @@
   }
 .Logo img{
     position: absolute;
-    width: 45%;
-    height: 9%;
-    left: 60px;
-    top: 32px;
+    width: 100px;
+    height: 80px;
+    left: 57px;
+    top: 25px;
 }
 .MenuBar img {
     position: absolute;
@@ -86,7 +86,7 @@
     width: 170px;
     height: 49px;
     left: 12px;
-    top: 732px;
+    top: 93%;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;

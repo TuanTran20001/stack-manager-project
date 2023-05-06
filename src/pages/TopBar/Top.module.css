@@ -1,26 +1,26 @@
 .TopBar {
     position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
     width: 1240px;
     height: 88px;
     left: 200px;
     top: 0px;
     display: flex;
 }
-.ContentLeft {
-    margin-left: 24px;
+.ContentLeft{
+    width: 40%;
     margin-top: 14px;
-    font-family: 'Nunito';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: #FF9138;
+    color: #FF9138; 
 }
 .ImgRing img {
     position: absolute;
     width: 32px;
     height: 32px;
-    right: 260px;
+    right: 8%;
     top: 28px;
     background: #FFF2E7;
     border-radius: 32px;
@@ -29,28 +29,25 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    right: 196px;
+    right: 1%;
     top: 24px;
     border-radius: 48px;
 }
-.ContentRight {
-    margin-left: 880px;
+.Contenthd {
+    margin-left: 100%;
     margin-top: 10px;
 }
 .Name{
-    margin: 15px 0;
-    font-family: 'Nunito';
-    font-style: normal;
+    width: 180%;
+    margin: 20px 2px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 18px;
     color: #7E7D88;
 }
 .Names{
+    width: 9%;
     position: absolute;
-    top: 45px;
-    font-family: 'Nunito';
-    font-style: normal;
+    top: 36px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;

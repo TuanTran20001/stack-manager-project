@@ -15,6 +15,9 @@ const Information = () => {
       <div className={Styless.TopBar}>
         <TopBar></TopBar>
       </div>
+      <div className={Styless.ContentInfor}>
+        <p>Thông tin cá nhân</p>
+      </div>
       <div className={Styless.TableInfo}>
         <div className={Styless.Avatar}>
           <img src={Avatar}></img>
