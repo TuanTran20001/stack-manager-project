@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import LogoLeft from '../../assets/image/LogoAlta.png'
 import LogoRight from '../../assets/image/Group 341.png'
 import Styless from '../LoginUser/LoginU.module.css'
@@ -13,7 +13,7 @@ return (
         <div className={Styless.BoxLoginU}>
             <div className={Styless.LoginLeft}>
                 <div className={Styless.Logoleft} >
-                    <img src={LogoLeft}></img>
+                    <img src={LogoLeft} alt=''/>
                 </div>
                 <div className={Styless.InputLg}>
                     <label>Tên đăng nhập *</label>
@@ -33,13 +33,13 @@ return (
 
             <div className={Styless.LoginRight}>
                 <div className={Styless.LogoRight}>
-                    <img src={LogoRight}/>
+                    <img src={LogoRight} alt=''/>
                 </div>
                 <div className={Styless.txtRight}>
-                    <img src={HeThong}/>
+                    <img src={HeThong} alt=''/>
                 </div>
                 <div className={Styless.txtRights}>
-                    <img src={QLXH}/>
+                    <img src={QLXH} alt=''/>
                 </div>
             </div>
         </div>

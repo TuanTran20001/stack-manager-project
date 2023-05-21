@@ -1,11 +1,10 @@
-import { useState } from 'react';
-interface PaginationProps {
+// import { useState } from 'react';
+interface ContentsProps {
+  onPageChange: (pageNumber: number) => void;
   currentPage: number;
   totalPages: number;
-  onPageChange: (pageNumber: number) => void;
 }
-
-const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPageChange }) => {
+const Contents: React.FC<ContentsProps> = ({ currentPage, totalPages, onPageChange }) => {
   const pageNumbers = [];
   for (let i = 1; i <= totalPages; i++) {
     pageNumbers.push(i);
@@ -13,7 +12,7 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPage
 
   return (
     <nav>
-      <ul className="pagination">
+      <ul className="Contents">
         {pageNumbers.map((number) => (
           <li key={number} className={`page-item ${number === currentPage ? 'active' : ''}`}>
             <button className="page-link" onClick={() => onPageChange(number)}>
@@ -25,4 +24,5 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPage
     </nav>
   )
 }
-export default Pagination;
+
+export default Contents;

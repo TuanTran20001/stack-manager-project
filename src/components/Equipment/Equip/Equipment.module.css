@@ -1,8 +1,26 @@
 /* Table Equipment*/
-.E
+.EquipHeader p {
+    top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    line-height: 20px;
+    color: #7E7D88;
+    margin-left: 226px;
+}
+.EquipHeader img
+{
+    padding:0 10px;
+}
+.EquipHeader a
+{
+    color: #FF7506;
+    text-decoration: none;
+    font-weight: 500;
+}
 .TextEquip h1 {
     position: absolute;
-    width: 38.5%;
+    width: 38%;
     height: 36px;
     font-family: 'Nunito';
     font-style: normal;
@@ -11,6 +29,7 @@
     font-size: 25px;
     line-height: 20px;
     color: #FF7506;
+    margin-left: 13.5%;
 }
 .BoxAction {
     box-sizing: border-box;
@@ -91,28 +110,32 @@
 }
 .BoxSearch {
     font-family: 'Nunito';
-    font-style: normal;
-    box-sizing: border-box;
+    /* font-style: normal;
+    box-sizing: border-box; */
     display: flex;
     flex-direction: row;
     align-items: center; 
     position: absolute;
-    left: 1356px;
+    left: 1290px;
     top: 190px;
+    width: 16%;
 }
 .BoxSearch h3{
     position: absolute;
-    width: 125%;
+    width: 75%;
     height: 88px;
-    right: 60px;
+    right: 26%;
     font-weight: 600;
     font-size: 16px;
     color: #282739;
 }
+.BoxText{
+    text-align: center;
+}
 table {
     position: absolute;
-    width: 1400px;
-    margin: 10px 35px;
+    width: 1335px;
+    margin: 20px 40px;
     left: 185px;
     top: 230px;
     border-radius: 12px;
@@ -120,23 +143,28 @@ table {
 }
 .iconacti{
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100%;
     margin-top: 12px;
 }
-td > a{
-    text-decoration: none;
-    border-bottom: 1px solid blue;
+.linkUpdate a{
+    display: flex;
+    color: #4277FF;
+    justify-content: center;
 }
-.link{
+.link a{
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100%;
+    color: #4277FF;
+}
+td > .LinkWatch
+{
+    color: #4277FF;
 }
 th {
     border: 1px solid #FFE3CD;
+    text-align: center;
     width: 106px;
     height: 49px;
     background: #FF9138;
@@ -150,8 +178,17 @@ th {
 tr:nth-child(2n) {
     background-color: #FFF2E7;
 }
+.Active
+{
+    width: 15%;
+}
+.Connect
+{
+    width: 12%;
+}
+
 .element {
-    width: 195px;
+    width: 215px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -214,6 +251,40 @@ tr:nth-child(2n) {
     position: absolute;
     width: 288px;
     height: 32px;
-    left: 1360px;
+    left: 1290px;
     top: 56rem;
 }
+.AddEquip {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 4px;
+    width: 80px;
+    height: 94px;
+    left: 94%;
+    top: 244px;
+    background: #FFF2E7;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.AddEquip img {
+    width: 33px;
+    height: 33px;
+}
+.AddEquip a {
+    width: 72px;
+    height: 70px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FF7506;
+    text-decoration: none;
+    bottom: 50px;
+}
+

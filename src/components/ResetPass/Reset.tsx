@@ -11,7 +11,7 @@ const ResetPass = () =>{
             <div className={Styless.BoxReset}>
                 <div className={Styless.LoginLeft}>
                     <div className={Styless.Logoleft} >
-                        <img src={LogoLeft}></img>
+                        <img src={LogoLeft} alt=''/>
                     </div>
                     <div className={Styless.TitleRs}>
                         <label>Đặt lại mật khẩu mới</label> 
@@ -30,7 +30,7 @@ const ResetPass = () =>{
                 </div>
                 <div className={Styless.LoginRight}>
                     <div className={Styless.LogoRight}> 
-                        <img src={LogoRight}/>
+                        <img src={LogoRight} alt=''/>
                     </div>
                 </div>
             </div>
