@@ -27,7 +27,7 @@ const Equipment = () => {
             <MenuBar></MenuBar>
             <TopBar></TopBar>
             <div className={Styless.EquipHeader}>
-                <p>Thiết bị <img src={Arrow}/> <a href="Equipment">Danh sách thiết bị</a></p>
+                <p>Thiết bị <img src={Arrow}/> <a href="/Equipment">Danh sách thiết bị</a></p>
             </div>
 
             <div className={Styless.TextEquip}>
@@ -58,6 +58,7 @@ const Equipment = () => {
                 <Search id="Search" placeholder="Mời nhập từ khóa" allowClear onSearch={inputSearch}></Search>
             </div>
 
+            <div className={Styless.t}>
             <table>
                 <thead>
                     <tr>
@@ -87,7 +88,7 @@ const Equipment = () => {
                         
                         <td className={Styless.BoxText}>192.168.1.10</td>
 
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actions}></span>
                             <p className={Styless.title}>Ngưng hoạt động</p>
                         </td>
@@ -101,7 +102,7 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><Link to="/DetailEquip">Chi tiết</Link></td>
                         <td className={Styless.linkUpdate}><Link to="/UpdateEquip">Cập nhật</Link></td>
@@ -114,7 +115,7 @@ const Equipment = () => {
 
                         <td className={Styless.BoxText}>192.168.1.10</td>
 
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
@@ -128,7 +129,7 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -141,7 +142,7 @@ const Equipment = () => {
 
                         <td className={Styless.BoxText}>192.168.1.10</td>
                         
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
@@ -155,7 +156,7 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -168,7 +169,7 @@ const Equipment = () => {
 
                         <td className={Styless.BoxText}>192.168.1.10</td>
 
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actions}></span>
                             <p className={Styless.title}>Ngưng hoạt động</p>
                         </td>
@@ -182,7 +183,7 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -195,7 +196,7 @@ const Equipment = () => {
 
                         <td className={Styless.BoxText}>192.168.1.10</td>
 
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actions}></span>
                             <p className={Styless.title}>Ngưng hoạt động</p>
                         </td>
@@ -209,7 +210,7 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -222,7 +223,7 @@ const Equipment = () => {
 
                         <td className={Styless.BoxText}>192.168.1.10</td>
 
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.title}>Hoạt động</p>
                         </td>
@@ -236,7 +237,7 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -249,7 +250,7 @@ const Equipment = () => {
 
                         <td className={Styless.BoxText}>192.168.1.10</td>
 
-                        <td className={Styless.iconacti}>
+                        <td className={Styless.statusAction}>
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.title}>Hoạt động</p>
                         </td>
@@ -263,20 +264,21 @@ const Equipment = () => {
 
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
-                            <a href="" className={Styless.LinkWatch}>Xem thêm</a>
+                            <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquipr">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
                     </tr>
                 </tbody>
             </table>
+            </div>
 
-                        <div className={Styless.Pagination}>
+                        <div className={Styless.Contents}>
                             <Pagination defaultCurrent={1} total={50}/>
                         </div>
                         
                         <div className={Styless.AddEquip}>
-                            <Link to='/AddEquip'><img src={Vector}/> Thêm thiết bị</Link>
+                            <Link to='/AddEquip'><img src={Vector} alt=''/> Thêm thiết bị</Link>
                         </div>
         </div>
     )

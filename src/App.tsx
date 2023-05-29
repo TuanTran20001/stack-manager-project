@@ -8,10 +8,13 @@ import Information from './components/Information/Information';
 import UpdateEquip from './components/Equipment/Updated/UpdateEquip';
 import DetailEquip from './components/Equipment/Details/DetailEquip';
 import ServiceList from './components/Serviced/ServiceList/ServiceList';
+import ServiceAdd from './components/Serviced/ServiceAdd/ServiceAdd';
 // import Dashboard from './components/Dashboard/Dashboard'
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 import Equipment from './components/Equipment/Equip/Equipment';
 import AddEquip from './components/Equipment/Add/AddEquip';
+import ServiceUpdate from './components/Serviced/ServiceUpdate/ServiceUpdate';
+import ServiceDetails from './components/Serviced/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
         <Route path="/UpdateEquip" element={<UpdateEquip></UpdateEquip>}></Route>
         <Route path="/DetailEquip" element={<DetailEquip></DetailEquip>}></Route>
         <Route path="/ServiceList" element={<ServiceList></ServiceList>}></Route>
+        <Route path="/ServiceAdd" element={<ServiceAdd></ServiceAdd>}></Route>
+        <Route path="/ServiceUpdate" element={<ServiceUpdate></ServiceUpdate>}></Route>
+        <Route path="/ServiceDetails" element={<ServiceDetails></ServiceDetails>}></Route>
       </Routes>
     </div>
   );

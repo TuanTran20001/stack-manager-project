@@ -13,7 +13,7 @@ return (
       <TopBar></TopBar>
          {/* Thanh header phần cập nhật thiết bị */}
          <div className={Styless.DetailHeader}>
-                <p>Thiết bị <img src={Arrow}/> Danh sách thiết bị <img src={Arrow}/> <a href="/AddEquip">Chi tiết thiết bị</a></p>
+                <p>Thiết bị <img src={Arrow}/> <a className={Styless.ds} href="/Equipment">Danh sách thiết bị </a><img src={Arrow}/> <a href="/AddEquip">Chi tiết thiết bị</a></p>
         </div>
 
          <div className={Styless.DetailText}>
@@ -50,7 +50,7 @@ return (
 
                 <div className={Styless.inforRight}>
                     <h4 className={Styless.menuDetail}>Tên đăng nhập:</h4>
-                    <h4 className={Styless.InforDetail}> Linhkyo011</h4>
+                    <h4 className={Styless.InforDetail}>Linhkyo011</h4>
                 </div>
 
                 <div className={Styless.inforRight}>

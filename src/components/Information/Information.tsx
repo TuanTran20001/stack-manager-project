@@ -8,7 +8,7 @@ import Cam from '../../assets/image/Camera.png'
 import Input from 'antd/es/input/Input' 
 const Information = () => {
   return (
-    <div className={Styless.Infomation}>
+    <div className={Styless.Information}>
       <div className={Styless.MenuBar}>
         <MenuBar></MenuBar>
       </div>
@@ -20,7 +20,7 @@ const Information = () => {
       </div>
       <div className={Styless.TableInfo}>
         <div className={Styless.Avatar}>
-          <img src={Avatar}></img>
+          <img src={Avatar} alt=''/>
         </div>
         <div className={Styless.Camera}>
           <img src={Cam}></img>

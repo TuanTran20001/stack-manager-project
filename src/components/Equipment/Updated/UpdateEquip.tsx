@@ -18,7 +18,7 @@ return (
             <TopBar></TopBar>
             {/* Thanh header phần cập nhật thiết bị */}
             <div className={Styless.UpdateHeader}>
-                <p>Thiết bị <img src={Arrow}/> Danh sách thiết bị <img src={Arrow}/> <a href="/AddEquip">Cập nhật thiết bị</a></p>
+                <p>Thiết bị <img src={Arrow}/> <a className={Styless.ds} href="/Equipment">Danh sách thiết bị</a><img src={Arrow}/> <a href="/AddEquip">Cập nhật thiết bị</a></p>
             </div>
             <div className={Styless.UpdateText}>
                 <h1>Quản lý thiết bị</h1>
@@ -82,7 +82,7 @@ return (
 
              {/* Button phầm cập nhật thiết bị */}
             <div className={Styless.btnCancel}>
-                    <Link to='/AddEquip'>  <button type='button' >Huỷ</button></Link>
+                    <Link to='/Equipment'>  <button type='button' >Huỷ</button></Link>
             </div>
 
             <div className={Styless.btnAdd}>

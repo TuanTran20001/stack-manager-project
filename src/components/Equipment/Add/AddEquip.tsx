@@ -18,7 +18,7 @@ return (
             <TopBar></TopBar>
             {/* Thanh header phần thêm thiết bị */}
             <div className={Styless.AddHeader}>
-                <p>Thiết bị <img src={Arrow}/> Danh sách thiết bị <img src={Arrow}/> <a href="/AddEquip">Thêm thiết bị</a></p>
+                <p>Thiết bị <img src={Arrow}/> <a className={Styless.ds} href="/Equipment">Danh sách thiết bị</a> <img src={Arrow}/> <a href="/AddEquip">Thêm thiết bị</a></p>
             </div>
 
             <div className={Styless.AddText}>

@@ -36,23 +36,31 @@
     flex-grow: 0;
 }
 .UpdateHeader p {
+    top: 0px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     position: absolute;
-    top: 10px;
-    line-height: 20px;
     color: #7E7D88;
     margin-left: 226px;
 }
 .UpdateHeader img
 {
-    padding:0 10px;
+    padding: 1px 10px;
+    height: 9px;
+}
+.UpdateHeader .ds
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: #7E7D88;
 }
 .UpdateHeader a
 {
+    font-size: 20px;
     color: #FF7506;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    padding-right: 3px;
 }
 .UpdateText h1 {
     font-family: 'Nunito';
@@ -60,7 +68,7 @@
     position: absolute;
     width: 38%;
     height: 36px;
-    top: 5rem;
+    top: 11%;
     font-weight: 700;
     font-size: 25px;
     line-height: 20px;
