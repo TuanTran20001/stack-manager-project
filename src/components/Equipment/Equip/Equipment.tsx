@@ -27,7 +27,7 @@ const Equipment = () => {
             <MenuBar></MenuBar>
             <TopBar></TopBar>
             <div className={Styless.EquipHeader}>
-                <p>Thiết bị <img src={Arrow}/> <a href="/Equipment">Danh sách thiết bị</a></p>
+                <p>Thiết bị <img src={Arrow} alt=''/> <a href="/Equipment">Danh sách thiết bị</a></p>
             </div>
 
             <div className={Styless.TextEquip}>
@@ -278,7 +278,7 @@ const Equipment = () => {
                         </div>
                         
                         <div className={Styless.AddEquip}>
-                            <Link to='/AddEquip'><img src={Vector} alt=''/> Thêm thiết bị</Link>
+                            <Link to='/AddEquip'><img src={Vector} alt=''/>Thêm thiết bị</Link>
                         </div>
         </div>
     )

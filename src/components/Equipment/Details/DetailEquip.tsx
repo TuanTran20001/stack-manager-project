@@ -2,7 +2,7 @@ import React from 'react'
 import Styless from './DetailEquip.module.css'
 import MenuBar from '../../../pages/MenuBar/Menu'
 import TopBar from '../../../pages/TopBar/Top'
-import Square from '../../../assets/image/Edit Square.png'
+import Square from '../../../assets/image/EditSquare.png'
 import Arrow from '../../../assets/image/arrow.png'
 import { Link } from 'react-router-dom';
 const  DetailEquip= () => {
@@ -13,7 +13,7 @@ return (
       <TopBar></TopBar>
          {/* Thanh header phần cập nhật thiết bị */}
          <div className={Styless.DetailHeader}>
-                <p>Thiết bị <img src={Arrow}/> <a className={Styless.ds} href="/Equipment">Danh sách thiết bị </a><img src={Arrow}/> <a href="/AddEquip">Chi tiết thiết bị</a></p>
+                <p>Thiết bị <img src={Arrow} alt=''/> <a className={Styless.ds} href="/Equipment">Danh sách thiết bị </a><img src={Arrow} alt=''/> <a href="/AddEquip">Chi tiết thiết bị</a></p>
         </div>
 
          <div className={Styless.DetailText}>
@@ -65,7 +65,7 @@ return (
             </div>
 
             <div className={Styless.UpdateDetail}>
-                    <Link to='/UpdateEquip'><img src={Square}/> Cập nhật thiết bị</Link>
+                    <Link to='/UpdateEquip'><img src={Square} alt=''/> Cập nhật thiết bị</Link>
             </div>
         </div>
     </div>

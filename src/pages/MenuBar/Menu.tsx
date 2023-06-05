@@ -26,13 +26,13 @@ const MenuBar = () => {
             <Link to="/ServiceList">Dịch vụ</Link>
         </div>
         <div className={Styless.ItemCapso} ><img src={CapSo}></img>
-            <Link to="">Cấp số</Link>
+            <Link to="/List">Cấp số</Link>
         </div>
         <div className={Styless.ItemBaocao} ><img src={BaoCao}></img>
-            <Link to="">Báo cáo</Link>
+            <Link to="/Reported">Báo cáo</Link>
         </div>
         <div className={Styless.ItemCaidat} ><img src={CaiDat}></img>
-            <Link to="">Cài đặt thiết bị<MoreOutlined/></Link>
+            <Link to="/RoleList">Cài đặt thiết bị<MoreOutlined/></Link>
         </div>
         <div className={Styless.ButtonLogout} >
           <Link to="/login"><button> <LoginOutlined />Đăng Xuất</button></Link>

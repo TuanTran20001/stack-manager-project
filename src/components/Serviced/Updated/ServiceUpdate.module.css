@@ -1,0 +1,265 @@
+.ServiceHeader h1 {
+    position: absolute;
+    width: 1000px;
+    height: 36px;
+    left: 224px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #7E7D88;
+    font-style: normal;
+    font-family: 'Nunito';
+}
+.ServiceHeader img{
+    padding:0 10px;
+    margin: 2px 10px;
+}
+.ServiceHeader h2 {
+    position: absolute;
+    width: 187px;
+    height: 36px;
+    left: 224px;
+    top: 80px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    color: #FF7506;
+    font-family: 'Nunito';
+}
+.TextServices {
+    position: absolute;
+    width: 337px;
+    height: 44px;
+    left: 24px;
+    top: 240px;
+}
+.TextServices h2 {
+    position: relative;
+    width: 136px;
+    height: 30px;
+    left: 2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF7506;
+}
+
+.BoxMenu {
+    height: 45px;
+}
+.BoxMenu label{
+    padding: 7px 0;
+}
+.TextService {
+    position: absolute;
+    width: 1178px;
+    height: 553px;
+    left: 224px;
+    top: 172px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+    border-radius: 16px;
+}
+.TextService h1 {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 24px;
+    top: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF7506;
+}
+.CodeService {
+    width: 2000px;
+    height: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #282739;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Arrow {
+    color: red;
+    margin-left: 5px;
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+
+.BoxService {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9px;
+    position: absolute;
+    width: 553px;
+    height: 85px;
+    left: 24px;
+    top: 58px;
+}
+.BoxService Input {
+    width: 553px;
+    height: 44px;
+    display: flex;
+    top: 5px;
+    border: 1.5px solid #d4d4d7;
+}
+
+.BoxServicess {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 553px;
+    height: 164px;
+    left: 601px;
+    top: 58px;
+}
+.BoxServicess Input 
+{
+    display: flex;
+}
+.DesDetail{
+    width: 553px;
+    height: 132px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.ServiceHeader .SHeader{
+    font-size: 20px;
+    font-weight: 700;
+    color: #7E7D88;
+    padding-right: 8px;
+}
+.ServiceHeader .SDetails{
+    font-size: 20px;
+    font-weight: 700;
+    color: #7E7D88;
+    padding-right: 8px;
+}
+.ServiceHeader a {
+    text-decoration: none;
+    color: #FF9138;
+}
+
+.CodeServices {
+    position: absolute;
+    width: 179px;
+    height: 21px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    color: #7E7D88;
+}
+
+.ButtonC button {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 48px;
+    left: 400px;
+    top: 325px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 24px;
+    gap: 8px;
+    color: #FF9138;
+    background: #FFF2E7;
+    border: 1.5px solid #FF9138;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+}
+
+.ButtonCN button 
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 154px;
+    height: 48px;
+    left: 580px;
+    top: 325px;
+    padding: 10px 24px;
+    gap: 8px;
+    color: white;
+    background: #FF9138;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    border: 1.5px solid #FF9138;
+}
+.TextBox{
+    margin: 15px 20px;
+    width: 900px;
+    height: 44px;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    text-align: center;
+    color: #535261;
+}
+.TextBox p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 12px;
+    color: #535261;
+}
+.Arrive  {
+    margin: 10px 0;
+    margin-left: -11px;
+    width: 11%;
+    margin-top: 27px;
+}
+.TextBoxs {
+    margin: 15px 20px;
+    width: 61px;
+    height: 44px;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+    text-align: center;
+    color: #535261;
+    margin-top: 17px;
+}
+.TextBoxs p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 6px;
+    color: #535261;
+}
+
+.CheckBox {
+    display: flex;
+    margin-top: -65px;
+    margin-left: 120px;
+}
+

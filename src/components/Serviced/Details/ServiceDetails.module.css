@@ -20,7 +20,7 @@
     border-radius: 12px;
 }
 
-.InforDichVu h1 {
+.ServiceDetails h1 {
     position: absolute;
     width: 171px;
     height: 36px;
@@ -89,7 +89,7 @@
 }
 
 .NameCode {
-    margin-top: 30px;
+    margin-top: 35px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
@@ -167,7 +167,7 @@
     width: 120px;
     height: 24px;
     left: 20px;
-    top: 386px;
+    top: 390px;
 }
 
 .DateStart p {
@@ -175,7 +175,7 @@
     width: 106px;
     height: 24.08px;
     left: 196px;
-    top: 16px;
+    top: 0px;
 }
 
 .InfoRight p {
@@ -187,29 +187,14 @@
     color: #282739;
 }
 
-.Dropdown p {
+.BoxAction p {
     position: absolute;
     width: 74px;
     height: 24px;
     left: 25px;
     top: 0px;
 }
-
-.IconNext {
-    position: absolute;
-    left: 330px;
-    right: 29.17%;
-    top: 50px;
-    bottom: 25%;
-}
-.SearchBar {
-    position: absolute;
-    width: 62px;
-    height: 24.08px;
-    left: 488px;
-    top: -5px;
-}
-.Dropdown select {
+.BoxAction select {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -227,13 +212,56 @@
     border-radius: 8px;
 }
 
+.IconNext {
+    position: absolute;
+    left: 330px;
+    right: 29.17%;
+    top: 55px;
+    bottom: 25%;
+}
+.BoxSearch {
+    font-family: 'Nunito';
+    font-style: normal;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    position: absolute;
+    left: 495px;
+    top: 55px;
+    width: 30%;
+}
+.BoxSearch h3{
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    right: 26%;
+    font-weight: 600;
+    font-size: 16px;
+    color: #282739;
+}
+
 .SearchBar table {
     width: 669px;
     height: 441px;
     left: 25px;
     top: 104px;
 }
-
+.date{
+    top: 46px;
+    left: 196px; 
+    height: 45px;
+    width: 125px;
+}
+.dates{
+    top: 0px; 
+    left: 350px; 
+    height: 45px;
+    width: 125px;
+}
+.Stt{
+    text-align: center;
+}
 .Pagination {
     flex-direction: row;
     align-items: flex-start;
@@ -246,6 +274,7 @@
 }
 .statusConnect {
     display: flex;
+    justify-content: center;
 }
 
 .actionsConnect {
@@ -311,21 +340,20 @@
 }
 
 .EditService img {
-    width: 28px;
-    height: 28px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    padding: 0 24px;
 }
 
 .EditService a {
     width: 72px;
-    height: 38px;
+    height: 60px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 20px;
     text-align: center;
     color: #FF7506;
     text-decoration: none;
@@ -356,8 +384,8 @@
 }
 
 .Back a {
-    width: 72px;
-    height: 38px;
+    width: 65px;
+    height: 50px;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 600;

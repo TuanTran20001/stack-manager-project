@@ -191,7 +191,7 @@ tr:nth-child(2n) {
 }
 .Active
 {
-    width: 15%;
+    width: 21%;
 }
 .Connect
 {
@@ -222,13 +222,7 @@ tr:nth-child(2n) {
 }
 .statusConnect{
    display: flex;
-}
-.actionsConnect{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: red;
-    margin: 18px 10px;
+   justify-content: center;
 }
 .titleConnect{
     font-family: 'Nunito';
@@ -264,7 +258,7 @@ tr:nth-child(2n) {
     width: 288px;
     height: 32px;
     left: 1290px;
-    top: 750px;
+    top: 800px;
 }
 .AddEquip {
     position: absolute;

@@ -16,10 +16,12 @@ const ServiceList = () => {
     const handleClickChange = (e: any) => {
         setValue(e.target.value);
     };
-    const onSearch = (value: string) => console.log(value);
-    // const onChange: DatePickerProps['onChange'] = (date, dateString) => {
-    //     console.log(date, dateString);
-    // };
+
+    const onChange: DatePickerProps['onChange'] = (date, dateString) => {
+        console.log(date, dateString);
+    };
+    const inputSearch = (value: string) => console.log(value);
+    
     return (
         <div className={Styless.Device}>
             <MenuBar></MenuBar>
@@ -32,9 +34,8 @@ const ServiceList = () => {
                 <h1>Quản lý dịch vụ</h1>
             </div>
 
-            <div className={Styless.Dropdown}>
+            <div className={Styless.BoxAction}>
                 <h3>Trạng thái hoạt động</h3>
-
                 <select id="1" value={Click} onChange={handleClickChange}>
                     <option value="1">Tất cả</option>
                     <option value="2">Hoạt động</option>
@@ -42,25 +43,23 @@ const ServiceList = () => {
                 </select>
 
             </div>
-            {/* <div className={Styless.DateStart}>
+
+            <div className={Styless.DateStart}>
                 <p>Chọn thời gian</p>
-                <DatePicker onChange={onChange} style={{
-                    top: 185, left: 550, height: 44
-                }} />
+                <DatePicker onChange={onChange} className={Styless.date} />
             </div>
+
             <div className={Styless.IconNext}>
                 <CaretRightOutlined />
             </div>
+
             <div className={Styless.DateEnd}>
-                <DatePicker onChange={onChange} style={{
-                    top: 141, left: 750, height: 44
-                }} />
-            </div> */}
-            <div className={Styless.SearchBar}>
-                <p>Từ khoá</p>
-                <Search id="Search" placeholder="" allowClear onSearch={onSearch} style={{
-                    width: 300, height: 44,
-                }} />
+                <DatePicker onChange={onChange} className={Styless.dates}/>
+            </div>
+
+            <div className={Styless.BoxSearch}>
+                <h3>Từ khoá</h3>
+                <Search id="Search" placeholder="Mời nhập từ khóa" allowClear onSearch={inputSearch}></Search>
             </div>
 
             <table>
@@ -204,7 +203,7 @@ const ServiceList = () => {
                 </tbody>
             </table>
 
-            <div className={Styless.Pagination}>
+            <div className={Styless.Contents}>
                 <Pagination defaultCurrent={1} total={50} />
             </div>
             <div className={Styless.AddDevice}>

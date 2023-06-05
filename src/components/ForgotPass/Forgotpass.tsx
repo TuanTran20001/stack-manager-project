@@ -7,7 +7,7 @@ import Styless from '../ForgotPass/Forgotpass.module.css'
 import { Input } from 'antd';
 import { Link } from 'react-router-dom';
 
-const Forgotpss = () => {
+const Forgotpass = () => {
   return (
     <div className={Styless.Forgotpss}>
       <div className={Styless.BoxForgotpss}>
@@ -46,4 +46,4 @@ const Forgotpss = () => {
     </div>
   )
 }
-export default Forgotpss;
+export default Forgotpass;
