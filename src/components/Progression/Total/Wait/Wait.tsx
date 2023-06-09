@@ -86,7 +86,7 @@ const List = () => {
             </div>
 
             <div className={Styless.t}>
-            <table>
+            <table style={{top:'222px'}}>
                 <thead>
                     <tr>
                         <th style={{width:'85px'}}>STT</th>

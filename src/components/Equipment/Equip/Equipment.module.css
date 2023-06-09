@@ -134,17 +134,12 @@
     text-align: center;
 }
 table {
-    /* position: absolute;
-    border-radius: 12px;
-    /* width: 1360px; */
-    /* margin: 10px 35px;
-    /* border-radius: 12px; */
     position: absolute;
     width: 1335px;
     margin: 20px 40px;
     left: 185px;
     top: 225px;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
     background-color: white;
 }
@@ -200,7 +195,7 @@ tr:nth-child(2n) {
 
 .element {
     margin-left: 10px;
-    width: 215px;
+    width: 190px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -299,4 +294,208 @@ tr:nth-child(2n) {
     text-decoration: none;
     bottom: 50px;
 }
+/* Box */
+.BoxDetail {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 52px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail:hover{
+    opacity: 1;
+}
+.BoxDetail label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+/* Box 1 */
+.BoxDetail1 {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 112px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail1:hover{
+    opacity: 1;
+}
+.BoxDetail1 label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+/* Box 2 */
+.BoxDetail2 {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 175px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail2:hover{
+    opacity: 1;
+}
+.BoxDetail2 label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+/* Box 3 */
+.BoxDetail3 {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 238px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail3:hover{
+    opacity: 1;
+}
+.BoxDetail3 label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+/* Box 4 */
+.BoxDetail4 {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 300px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail4:hover{
+    opacity: 1;
+}
+.BoxDetail4 label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+/* Box 5 */
+.BoxDetail5 {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 360px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail5:hover{
+    opacity: 1;
+}
+.BoxDetail5 label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+/* Box 6 */
+.BoxDetail6 {
+    position: absolute;
+    width: 310px;
+    height: 64px;
+    left: 59%;
+    top: 422px;
+    background: white;
+    border: 1.5px solid #FF9138;
+    border-radius: 12px;
+    opacity: 0;
+}
+.BoxDetail6:hover{
+    opacity: 1;
+}
+.BoxDetail6 label {
+    position: absolute;
+    width: 101%;
+    height: 30px;
+    left: 2px;
+    top: -2px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+
 

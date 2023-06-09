@@ -23,7 +23,7 @@ const Information = () => {
           <img src={Avatar} alt=''/>
         </div>
         <div className={Styless.Camera}>
-          <img src={Cam}></img>
+          <img src={Cam} alt=''/>
         </div>
         <div className={Styless.Names}>
           <label>Trần Anh Tuấn</label>

@@ -8,10 +8,10 @@ const TopBar = () => {
   return (
     <div className={Styless.TopBar}>
       <div className={Styless.ImgRing}>
-          <img src={Ring} ></img>
+          <img src={Ring} alt=''/>
       </div>
       <div className={Styless.ImgAvt}>
-          <Link to="/Information"><img src={Ava}></img></Link>
+          <Link to="/Information"><img src={Ava} alt=''/></Link>
       </div>
       <div className={Styless.Contenthd}>
         <p className={Styless.Name}>Xin Chào</p>

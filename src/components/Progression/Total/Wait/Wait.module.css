@@ -166,16 +166,10 @@
     text-align: center;
 }
 table {
-    /* position: absolute;
-    border-radius: 12px;
-    /* width: 1360px; */
-    /* margin: 10px 35px;
-    /* border-radius: 12px; */
     position: absolute;
     width: 1335px;
     margin: 20px 40px;
     left: 185px;
-    top: 225px;
     border-radius: 12px;
     overflow: hidden;
     background-color: white;

@@ -23,8 +23,18 @@ import Skips from './components/Progression/Total/Skips/Skips';
 import Used from './components/Progression/Total/Used/Used';
 import Wait from './components/Progression/Total/Wait/Wait';
 import Reported from './components/Reported/Report';
-import RoleList from './components/Role/Account/RoleList/RoleList';
-import RoleAdd from './components/Role/Account/RoleAdd/RoleAdd';
+import RoleAdd from './components/Install/Role/RoleAdd/RoleAdd';
+import RoleList from './components/Install/Role/RoleList/RoleList';
+import AccountAdd from './components/Install/Account/AccountAdd/AccountAdd';
+import AccountList from './components/Install/Account/AccountList/AccountList';
+import RoleUpdate from './components/Install/Role/RoleUpdate/RoleUpdate';
+import AccountUpdate from './components/Install/Account/AccountUpdate/AccountUpdate';
+import User from './components/Install/User/User';
+import Dashboard1 from './components/Dashboard/Dashboard1';
+import Dashboard2 from './components/Dashboard/Dashboard2';
+import Dashboard3 from './components/Dashboard/Dashboard3';
+
+
 
 function App() {
   return (
@@ -53,6 +63,14 @@ function App() {
         <Route path="/Reported" element={<Reported></Reported>}></Route>
         <Route path="/RoleList" element={<RoleList></RoleList>}></Route>
         <Route path="/RoleAdd" element={<RoleAdd></RoleAdd>}></Route>
+        <Route path="/RoleUpdate" element={<RoleUpdate></RoleUpdate>}></Route>
+        <Route path="/AccountList" element={<AccountList></AccountList>}></Route>
+        <Route path="/AccountAdd" element={<AccountAdd></AccountAdd>}></Route>
+        <Route path="/AccountUpdate" element={<AccountUpdate></AccountUpdate>}></Route>
+        <Route path="/User" element={<User></User>}></Route>
+        <Route path="/Dashboard1" element={<Dashboard1></Dashboard1>}></Route>
+        <Route path="/Dashboard2" element={<Dashboard2></Dashboard2>}></Route>
+        <Route path="/Dashboard3" element={<Dashboard3></Dashboard3>}></Route>
       </Routes>
     </div>
   );

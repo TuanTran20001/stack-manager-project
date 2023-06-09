@@ -100,35 +100,15 @@
     font-size: 16px;
     color: #282739;
 }
-table {
-    position: absolute;
-    width: 1335px;
-    margin: 12px 40px;
-    left: 185px;
-    top: 225px;
-    border-radius: 12px;
-    overflow: hidden;
-    background-color: white;
-}
 .BoxText{
     text-align: center;
     line-height: 8px;
     height: 20px;
 }
-/* th, td {
-
-    text-align: center;
-} */
-/* td>a:hover {
-    border-bottom: 1px solid blue;
-} */
 a{
     color: #4277FF;
 }
 .link {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     height: 100%;
     text-align: center;  
 }
@@ -136,7 +116,15 @@ a{
     text-align: center;
     text-decoration: none;
 }
-
+table {
+    position: absolute;
+    width: 1335px;
+    margin: 20px 40px;
+    left: 185px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: white;
+}
 th {
     border: 1px solid #FFE3CD;
     width: 106px;

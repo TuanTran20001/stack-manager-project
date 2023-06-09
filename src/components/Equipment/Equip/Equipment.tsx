@@ -37,6 +37,7 @@ const Equipment = () => {
             <div className={Styless.BoxAction}>
                 <h3>Trạng thái hoạt động</h3>
                 <select id="Click1" value={Click1} onChange={handleClick1Change}>
+                    <Link to="/RoleList">aaaa</Link>
                     <option value="option1">Tất cả</option>
                     <option value="option2">Hoạt động</option>
                     <option value="option3">Ngưng hoạt động</option>
@@ -103,6 +104,10 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                            {/* Box */}
+                            <div className={Styless.BoxDetail}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
                         <td className={Styless.link}><Link to="/DetailEquip">Chi tiết</Link></td>
                         <td className={Styless.linkUpdate}><Link to="/UpdateEquip">Cập nhật</Link></td>
@@ -130,6 +135,10 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                            {/* Box 1 */}
+                            <div className={Styless.BoxDetail1}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -157,6 +166,10 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                            {/* Box 2*/}
+                            <div className={Styless.BoxDetail2}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -184,6 +197,10 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                            {/* Box 3*/}
+                            <div className={Styless.BoxDetail3}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -211,6 +228,10 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                             {/* Box 4*/}
+                             <div className={Styless.BoxDetail4}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -238,6 +259,10 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                             {/* Box 5*/}
+                             <div className={Styless.BoxDetail5}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
                         <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
@@ -265,8 +290,12 @@ const Equipment = () => {
                         <td>
                             <p className={Styless.element}>Khám tim mạch, Khám mắt</p>
                             <a href="/DetailEquip" className={Styless.LinkWatch}>Xem thêm</a>
+                             {/* Box 6*/}
+                             <div className={Styless.BoxDetail6}>
+                                   <Link to="/DetailEquip"><label>Khám tim mạch, Khám Sản - Phụ khoa, Khám răng hàm mặt, Khám tai mũi họng, Khám hô hấp, Khám tổng quát</label></Link> 
+                            </div>
                         </td>
-                        <td className={Styless.link}><a href="/DetailEquipr">Chi tiết</a></td>
+                        <td className={Styless.link}><a href="/DetailEquip">Chi tiết</a></td>
                         <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
                     </tr>
                 </tbody>

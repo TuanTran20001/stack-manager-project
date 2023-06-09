@@ -6,6 +6,7 @@ import TopMenuBar from '../../../pages/TopBar/Top'
 import {  Input, Checkbox } from 'antd';
 import { Link } from 'react-router-dom'
 import Arrow from '../../../assets/image/arrow.png'
+
 const ServiceUpdate =()=> 
 {
    
@@ -26,9 +27,9 @@ const ServiceUpdate =()=>
             
             <div className={Styless.ServiceHeader}>
             <h1>Dịch vụ  
-                <img src={Arrow}></img> 
+                <img src={Arrow} alt=''/> 
                 <a className={Styless.SHeader} href="/ServiceList"> Danh sách dịch vụ</a>
-                <img src={Arrow}></img>                          
+                <img src={Arrow} alt=''/>                          
                 <a href="/ServiceAdd">Thêm dịch vụ</a> 
             </h1>
             <h2>Quản lý dịch vụ</h2>
@@ -122,6 +123,6 @@ const ServiceUpdate =()=>
                 </div>
             </div>
         </div>
-    );
-};
-export default ServiceUpdate;
+    )
+}
+export default ServiceUpdate

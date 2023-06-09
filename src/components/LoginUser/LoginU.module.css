@@ -30,6 +30,7 @@
     left: 460px;
     top: 398px;
     cursor: pointer;
+    width: 200px;
 }
 .NameLogin{
   display: flex;

@@ -19,36 +19,7 @@
     text-decoration: none;
     font-weight: 600;
 }
-.TextEquip h1 {
-    position: absolute;
-    width: 38%;
-    height: 36px;
-    font-family: 'Nunito';
-    font-style: normal;
-    top: 11%;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 20px;
-    color: #FF7506;
-    margin-left: 13.5%;
-}
-.BoxAction {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 24px;
-    position: absolute;
-    width: 300px;
-    height: 44px;
-    left: 226px;
-    top: 184px;
-    background: #FFFFFF;
-    border: 1.5px solid #D4D4D7;
-    border-radius: 8px;
-}
+
 .BoxAction select {
     box-sizing: border-box;
     display: flex;
@@ -66,49 +37,7 @@
     border: 1.5px solid #FFAC6A;
     border-radius: 8px;
 }
-.BoxAction h3 {
-    font-family: 'Nunito';
-    font-style: normal; 
-    position: absolute;
-    bottom: 2.1rem;
-    height: 24px;
-    left: 1px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #282739;
-}
-.BoxConect select {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 24px;
-    position: absolute;
-    width: 300px;
-    height: 44px;
-    left: 548px;
-    top: 184px;
-    background: #FFFFFF;
-    border: 1.5px solid #FFAC6A;
-    border-radius: 8px;
-}
-.BoxConect h3 {
-    font-family: 'Nunito';
-    font-style: normal;
-    position: absolute;
-    width: 126px;
-    height: 24px;
-    left: 548.97px;
-    top: 135px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #282739;
-}
+
 .BoxSearch {
     font-family: 'Nunito';
     font-style: normal;
@@ -134,17 +63,12 @@
     text-align: center;
 }
 table {
-    /* position: absolute;
-    border-radius: 12px;
-    /* width: 1360px; */
-    /* margin: 10px 35px;
-    /* border-radius: 12px; */
     position: absolute;
     width: 1335px;
     margin: 20px 40px;
     left: 185px;
     top: 225px;
-    border-radius: 12px;
+    border-radius: 16px;
     overflow: hidden;
     background-color: white;
 }
@@ -189,18 +113,10 @@ th {
 tr:nth-child(2n) {
     background-color: #FFF2E7;
 }
-.Active
-{
-    width: 21%;
-}
-.Connect
-{
-    width: 12%;
-}
-
 .element {
+    display: contents;
     margin-left: 10px;
-    width: 215px;
+    width: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -260,37 +176,34 @@ tr:nth-child(2n) {
     left: 1290px;
     top: 800px;
 }
-.AddEquip {
+.DateStart h3 {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 18px 4px;
-    width: 80px;
-    height: 94px;
-    left: 94%;
-    top: 244px;
-    background: #FFF2E7;
-    box-shadow: 0px 0px 6px #E7E9F2;
-    border-radius: 8px 0px 0px 8px;
-}
-
-.AddEquip img {
-    width: 33px;
-    height: 33px;
-}
-.AddEquip a {
-    width: 72px;
-    height: 70px;
     font-family: 'Nunito';
-    font-style: normal;
+    width: 800px;
+    height: 24.08px;
+    left: 13.5%;
+    top: 120px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #FF7506;
-    text-decoration: none;
-    bottom: 50px;
+    line-height: 24px;
+    color: #282739;
+}
+.IconNext {
+    position: absolute;
+    left: 21.5%;
+    top: 183px;
+    bottom: 25%;
+}
+.date{
+    top: 170px;
+    left: 13.5%; 
+    height: 49px;
+    width: 125px;
+}
+.dates{
+    width: 125px;
+    top: 120px; 
+    left: 23%; 
+    height: 50px;
 }
 

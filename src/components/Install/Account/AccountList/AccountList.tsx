@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import Styless from './RoleList.module.css'
+import Styless from './AccountList.module.css'
 import MenuBar from '../../../../pages/MenuBar/Menu'
 import TopBar from '../../../../pages/TopBar/Top'
 import { Input, Space } from 'antd';
@@ -50,16 +50,6 @@ const Equipment = () => {
                 </select>
 
             </div>
-
-            {/* <div className={Styless.BoxConect}>
-                <h3>Trạng thái kết nối</h3>
-                <select id="Click2" value={Click2} onChange={handleClick2Change}>
-                    <option value="option4">Tất cả</option>
-                    <option value="option5">Kết nối</option>
-                    <option value="option6">Mất kết nối</option>
-                </select>
-            </div> */}
-
             <div className={Styless.BoxSearch}>
                 <h3>Từ khoá</h3>
                 <Search id="Search" placeholder="Mời nhập từ khóa" allowClear onSearch={inputSearch}></Search>
@@ -108,7 +98,7 @@ const Equipment = () => {
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
                         
-                        <td className={Styless.linkUpdate}><Link to="/UpdateEquip">Cập nhật</Link></td>
+                        <td className={Styless.linkUpdate}><Link to="/AccountUpdate">Cập nhật</Link></td>
                     </tr>
 
                     <tr>
@@ -131,7 +121,7 @@ const Equipment = () => {
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
 
                     <tr>
@@ -155,7 +145,7 @@ const Equipment = () => {
                             <p className={Styless.title}>Ngưng hoạt động</p>
                         </td>
                        
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
 
                     <tr>
@@ -180,7 +170,7 @@ const Equipment = () => {
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
 
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
 
                     <tr>
@@ -205,7 +195,7 @@ const Equipment = () => {
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
 
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
 
                     <tr>
@@ -229,7 +219,7 @@ const Equipment = () => {
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
 
                     <tr>
@@ -253,7 +243,7 @@ const Equipment = () => {
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
                     
                     <tr>
@@ -278,7 +268,7 @@ const Equipment = () => {
                             <p className={Styless.title}>Ngưng hoạt động</p>
                         </td>
                         
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
                     
                     <tr>
@@ -302,7 +292,7 @@ const Equipment = () => {
                             <span className={Styless.actionsSuccess}></span>
                             <p className={Styless.titleSuccess}>Hoạt động</p>
                         </td>
-                        <td className={Styless.linkUpdate}><a href="/UpdateEquip">Cập nhật</a></td>
+                        <td className={Styless.linkUpdate}><a href="/AccountUpdate">Cập nhật</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -313,7 +303,7 @@ const Equipment = () => {
                         </div>
                         
                         <div className={Styless.AddEquip}>
-                            <Link to='/RoleAdd'><img src={Vector} alt=''/>Thêm tài khoản</Link>
+                            <Link to='/AccountAdd'><img src={Vector} alt=''/>Thêm tài khoản</Link>
                         </div>
         </div>
     )

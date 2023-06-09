@@ -116,7 +116,27 @@
     left: 24px;
     top: 66px;
 }
-
+.localEquips{
+    position: absolute;
+    width: 540px;
+    height: 76px;
+    left: 1px;
+    top: 260px;
+}
+.localEquips select {
+    /* box-sizing: border-box; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 24px;
+    width: 530px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1.5px solid #D4D4D7;
+    border-radius: 8px;
+}
 /*Service Table Right*/
 .AddRight {
     position: absolute;
@@ -194,3 +214,17 @@
 .AddRight select option[disabled]:first-child {
     color: gray;
   }
+.EyesPass1
+{
+    position: absolute;
+    left: 500px;
+    top: 135px;
+    cursor: pointer;
+}
+.EyesPass2
+{
+    position: absolute;
+    left: 500px;
+    top: 218px;
+    cursor: pointer;
+}

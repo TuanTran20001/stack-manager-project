@@ -6,7 +6,7 @@ import TopBar from '../../pages/TopBar/Top'
 import { Input, Space, DatePicker, DatePickerProps } from 'antd';
 import { CaretRightOutlined } from '@ant-design/icons';
 import { Pagination } from 'antd';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import Download from '../../assets/image/download.png'
 import Arrow from '../../assets/image/arrow.png'
 
@@ -25,12 +25,16 @@ const List = () => {
         console.log(date, dateString);
     };
     const inputSearch = (value: string) => console.log(value);
+
     return (
         <div className={Styless.Equipment}>
             <MenuBar></MenuBar>
             <TopBar></TopBar>
             <div className={Styless.EquipHeader}>
                 <p>Báo cáo <img src={Arrow} alt=''/> <a href="/List">Lập báo cáo</a></p>
+            </div>
+            <div>
+                
             </div>
 
             {/* <div className={Styless.TextEquip}>
@@ -85,7 +89,7 @@ const List = () => {
             </div>
 
             <div className={Styless.t}>
-            <table>
+            <table style={{top:'222px'}}>
                 <thead>
                     <tr>
                         <th style={{width:'130px'}}>Số thứ tự</th>

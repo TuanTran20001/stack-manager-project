@@ -1,0 +1,23 @@
+import React from 'react'
+import Styless from './TopDash.module.css'
+import Ring from '../../assets/image/Frame271.png'
+import Ava from '../../assets/image/avatar1.webp'
+import { Link } from 'react-router-dom'
+  
+const TopBar = () => {
+  return (
+    <div className={Styless.TopDash}>
+      <div className={Styless.ImgRing}>
+          <img src={Ring} alt=''/>
+      </div>
+      <div className={Styless.ImgAvt}>
+          <Link to="/Information"><img src={Ava} alt=''/></Link>
+      </div>
+      <div className={Styless.Contenthd}>
+        <p className={Styless.Name}>Xin Chào</p>
+        <p className={Styless.Names}>Trần Anh Tuấn</p>
+      </div>
+    </div>
+  )
+}
+export default TopBar;

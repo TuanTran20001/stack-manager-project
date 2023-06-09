@@ -9,7 +9,6 @@ const Contents: React.FC<ContentsProps> = ({ currentPage, totalPages, onPageChan
   for (let i = 1; i <= totalPages; i++) {
     pageNumbers.push(i);
   }
-
   return (
     <nav>
       <ul className="Contents">
@@ -24,5 +23,4 @@ const Contents: React.FC<ContentsProps> = ({ currentPage, totalPages, onPageChan
     </nav>
   )
 }
-
 export default Contents;

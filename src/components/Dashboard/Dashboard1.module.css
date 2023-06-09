@@ -1,0 +1,731 @@
+.DashBoard1 {
+    /* position: absolute; */
+    width: 795px;
+    height: 56px;
+    left: 24px;
+    top: 201px;
+}
+.Dash h1{
+    position: absolute;
+    width: 1000px;
+    height: 36px;
+    left: 224px;
+    top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color:#FF7506;
+}
+.Dash .TB{
+    font-size: 20px;
+    font-weight: 500;
+    color: #7E7D88;
+    padding-right: 8px;
+}
+.Dash a{
+    text-decoration: none;
+    color: #FF9138;
+}
+.Dash h2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    position: absolute;
+    width: 38%;
+    height: 36px;
+    top: 11%;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    color: #FF7506;
+    margin-left: 13.2%;
+}
+.DashDown{
+    position: absolute;
+    width: 815px;
+    height: 500px;
+    left: 220px;
+    top: 300px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashRight{
+    position: absolute;
+    width: 620px;
+    height: 800px;
+    left: 1068px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.DashRight1{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 70px;
+    top: 132px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashRight2{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 70px;
+    top: 240px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashRight3{
+    position: absolute;
+    width: 400px;
+    height: 95px;
+    left: 70px;
+    top: 350px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashRight4{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 70px;
+    top: 480px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashTop1 {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    left: 220px;
+    top: 156px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashTop2 {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    left: 430px;
+    top: 156px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashTop3 {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    left: 640px;
+    top: 156px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashTop4 {
+    position: absolute;
+    width: 186px;
+    height: 120px;
+    left: 850px;
+    top: 156px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(114, 120, 124, 0.8);
+    border-radius: 10px;
+}
+.DashImg {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1px;
+    top: 1px;
+    padding: 5px;
+}
+.DashImg p{
+    position: absolute;
+    width: 60px;
+    height: 36px;
+    left: 72.02px;
+    top: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #535261;
+}
+.DashTexts p{
+    font-family: 'Nunito';
+    font-style: normal;
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    left: 12px;
+    top: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #535261;
+}
+.DashTexts img {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 125px;
+    top: 85px;
+    padding: 5px;
+}
+.DashBox h2{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 60px;
+    top: 65px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color:#FF7506;
+    padding: 5px;
+}
+.DashItem1 img{
+    padding: 10px;
+    margin-top: 7px;
+}
+.DashBig p{
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    width: 280px;
+    height: 30px;
+    left: 80px;
+    bottom: 12px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #535261;
+    padding: 5px;
+}
+.DashBig img{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 80px;
+    bottom: 9px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 5px;
+}
+.DashSmall{
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: 70px;
+    bottom: 5px;
+    padding: 5px;
+}
+.DashSmall p{
+    position: absolute;
+    font-family: Nunito;
+    width: 280px;
+    height: 30px;
+    left: 33px;
+    top: 1px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 6px;
+    letter-spacing: 0rem;
+}
+.DashLittle{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 70px;
+    bottom: 5px;
+    padding: 5px;
+}
+.DashLittle p{
+    position: absolute;
+    font-family: Nunito;
+    width: 280px;
+    height: 30px;
+    left: 143px;
+    bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 6px;
+    letter-spacing: 0rem;
+}
+.DashLittle1{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 70px;
+    top: 85px;
+    padding: 5px;
+}
+.DashLittle1 p{
+    position: absolute;
+    font-family: Nunito;
+    width: 200px;
+    height: 30px;
+    left: 143px;
+    bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 6px;
+    letter-spacing: 0rem;
+}
+.DashLittle2{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 70px;
+    top: 61.5px;
+    padding: 5px;
+}
+.DashLittle2 p{
+    position: absolute;
+    font-family: Nunito;
+    width: 200px;
+    height: 30px;
+    left: 143px;
+    bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 6px;
+    letter-spacing: 0rem;
+}
+.dashText{
+    position: absolute;
+    font-family: Nunito;
+    width: 50px;
+    height: 30px;
+    left: 260px;
+    bottom: 0px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 6px;
+    letter-spacing: 0rem;
+}
+.dashText1{
+    position: absolute;
+    font-family: Nunito;
+    width: 50px;
+    height: 30px;
+    left: 260px;
+    margin-top: 11px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 6px;
+    letter-spacing: 0rem;
+}
+.dashText2{
+    position: absolute;
+    font-family: Nunito;
+    width: 50px;
+    height: 17px;
+    left: 260px;
+    bottom: 0px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2px;
+    letter-spacing: 0rem;
+}
+.DashColor{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 19px 10px;
+    left: 126px;
+    bottom: 35px;
+}
+.Dashboard1 {
+    position: absolute;
+    width: 795px;
+    height: 56px;
+    left: 24px;
+    top: 201px;
+}
+.DashNum1 h2{
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 800;
+    left: 3.03%;
+    right: 62.64%;
+    top: 3px;
+    bottom: 88.84%;
+    line-height: 30px;
+    color: #282739;
+}
+.DashNum2 h1
+{
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    left: 3.03%;
+    right: 84.45%;
+    top: 10%;
+    bottom: 83%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A9A9B0;
+}
+.DashNum3 h1
+{
+    font-family: 'Nunito';
+    font-style: normal;
+    width: 70px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 65px;
+    margin-left: 568px;
+    color: #282739;
+}
+.DashCombobox select{
+    position: absolute;
+    width: 15%;
+    height: 44px;
+    left: 80%;
+    top: 21px;
+    padding: 10px 6px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1.5px solid #FFAC6A;
+}
+.DashNum4 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 25px;
+    margin-top: 39px;
+    display: flex;
+    align-items: flex-end;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #535261;
+}
+.Gach1{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 372px;
+    background: #EAEAEC;
+}
+.DashNum5 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Gach2{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 320px;
+    background: #EAEAEC;
+}
+.DashNum6 h1{
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 67px;
+    height: 44px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Gach3{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 268px;
+    background: #EAEAEC;
+}
+.DashNum7 h1{
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 67px;
+    height: 44px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Gach4{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 215px;
+    background: #EAEAEC;
+}
+.DashNum8 h1{
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 67px;
+    height: 44px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Gach5{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 160px;
+    background: #EAEAEC;
+}
+.DashNum9 h1{
+    margin-left: 23px;
+    margin-top: 5px;
+    width: 67px;
+    height: 44px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Gach6{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 108px;
+    background: #EAEAEC;
+}
+.DashNum10 h1{
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 1px;
+    width: 67px;
+    height: 44px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Gach7{
+    border: 1px solid #EAEAEC;
+    position: absolute;
+    height: 0px;
+    width: 753px;
+    left: 18px;
+    bottom: 60px;
+    background: #EAEAEC;
+}
+.DashNum11 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 23px;
+    margin-top: 40px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.DashNum12 h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 33px;
+    margin-top: -48px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.DashNum13 h1 {
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 37px;
+    margin-top: -48px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Num1 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 88px;
+    margin-top: -52px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Num13 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 283px;
+    margin-top: -52px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Num19 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 478px;
+    margin-top: -27px;
+    width: 67px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Num31 h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    margin-left: 721px;
+    margin-top: -52px;
+    width: 67px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Hinh1 img{
+    margin-left: 55px;
+    bottom: 70px;
+    width: 719px;
+    height: 205px;
+    position: absolute;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Hinh2 img{
+    margin-left: 484px;
+    bottom: 61px;
+    height: 200px;
+    position: absolute;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Hinh3 img{
+    margin-left: 472.5px;
+    bottom: 246px;
+    height: 23px;
+    position: absolute;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}
+.Hinh4 img{
+    margin-left: 449.5px;
+    bottom: 265px;
+    height: 23px;
+    position: absolute;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #535261;
+}

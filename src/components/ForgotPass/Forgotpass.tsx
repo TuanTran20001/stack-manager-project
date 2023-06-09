@@ -13,7 +13,7 @@ const Forgotpass = () => {
       <div className={Styless.BoxForgotpss}>
         <div className={Styless.ForgotLeft}>
           <div className={Styless.Logoleft} >
-            <img src={LogoLeft}/>
+            <img src={LogoLeft} alt=''/>
           </div>
           <div className={Styless.txtLeft}>
             <label>Đặt lại mật khẩu</label>
@@ -33,13 +33,13 @@ const Forgotpass = () => {
         </div>
           <div className={Styless.ForgotRight}>
             <div className={Styless.LogoRight}>
-                <img src={LogoRight}/>
+                <img src={LogoRight} alt=''/>
             </div>
             <div className={Styless.txtRight}>
-                <img src={HeThong}/>
+                <img src={HeThong} alt=''/>
             </div>
             <div className={Styless.txtRights}>
-                <img src={QLXH}/>
+                <img src={QLXH} alt=''/>
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ return (
       <div className={Styless.BoxLoginU}>
 
             <div className={Styless.LogoLeft}>
-                <img src={LogoLeft}></img>
+                <img src={LogoLeft} alt=''/>
             </div>
 
             <div className={Styless.LoginLeft}>
@@ -47,21 +47,21 @@ return (
             </div>
 
                     <div className={Styless.BtnLogin}>
-                        <Link to="/Information">
+                        <Link to="/Dashboard1">
                             <button>Đăng nhập</button>
                         </Link>
                     </div>
         </div>
                     <div>
                         <div className={Styless.LogoRight}> 
-                            <img src={LogoRight}></img>
+                            <img src={LogoRight} alt=''/>
                         </div>
                         <div className={Styless.Right}>
-                            <img src={HeThong}></img>
-                            <img src={QLXH}></img>
+                            <img src={HeThong} alt=''/>
+                            <img src={QLXH} alt=''/>
                         </div>
                     </div>
     </div>
   )
 }
-export default Login;
+export default Login

@@ -27,7 +27,7 @@ const ServiceList = () => {
             <MenuBar></MenuBar>
             <TopBar></TopBar>
             <div className={Styless.ServiceHeader}>
-                <p>Dịch vụ <img src={Arrow}/> <a href="/ServiceList">Danh sách dịch vụ</a></p>
+                <p>Dịch vụ <img src={Arrow} alt=''/> <a href="/ServiceList">Danh sách dịch vụ</a></p>
             </div>
 
             <div className={Styless.TextService}>
@@ -62,7 +62,7 @@ const ServiceList = () => {
                 <Search id="Search" placeholder="Mời nhập từ khóa" allowClear onSearch={inputSearch}></Search>
             </div>
 
-            <table>
+            <table style={{ top: '222px' }}>
                 <thead>
                     <tr>
                         <th>Mã dịch vụ</th>
